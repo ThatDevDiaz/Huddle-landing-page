@@ -1,0 +1,104 @@
+@font-face {
+  font-family: openSans;
+  src: url(./fonts/openSans.ttf);
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url(./fonts/Poppins-Regular.ttf);
+}
+
+body,
+html {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  background-image: url("./images/bg-desktop.svg");
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1447px;
+  height: 100%;
+  background-color: hsl(257, 40%, 49%);
+  background-size: cover;
+  background-position: center center;
+}
+
+.logo {
+  display: block;
+  height: 50px;
+  margin-right: 1100px;
+  margin-top: 50px;
+  margin-bottom: 80px;
+  margin-left: 70px;
+}
+
+.container {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+  height: 700px;
+  width: 1447px;
+  margin: 0;
+  margin-left: 200px;
+}
+
+img {
+  width: 120%;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  width: 600px;
+  margin-left: 200px;
+  margin-bottom: 150px;
+}
+
+h1 {
+  color: white;
+  font-size: 45px;
+  font-family: Poppins;
+}
+
+.huddle-description {
+  color: rgba(255, 255, 255, 0.76);
+  font-size: 18px;
+  font-family: openSans;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.register-button {
+  color: hsl(257, 40%, 49%);
+  font-size: 18px;
+  width: 200px;
+  height: 50px;
+  border-radius: 100px;
+  padding: 10px;
+  margin-top: 30px;
+  border-color: hsl(257, 40%, 49%);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  width: 30px;
+  gap: 10px;
+  transform: translate(1720px, -20px);
+}
+
+.icons:hover {
+  cursor: pointer;
+}
